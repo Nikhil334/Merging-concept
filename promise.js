@@ -4,7 +4,6 @@ const fetchbiodata=(roll_no)=>{
             const Biodata ={
 
                 name : "Tushar vats",
-                name : "Mayank dubey",
 
                 age : 28
             }
