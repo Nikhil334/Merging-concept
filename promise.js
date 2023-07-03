@@ -2,7 +2,10 @@ const fetchbiodata=(roll_no)=>{
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
             const Biodata ={
+
                 name : "Tushar vats",
+                name : "Mayank dubey",
+
                 age : 28
             }
             resolve(`my roll no is ${roll_no} and my name is ${Biodata.name} and i am ${Biodata.age} years old`);
